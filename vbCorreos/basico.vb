@@ -173,6 +173,8 @@ Module basico
             smtpServer.Dispose()
         End If
         miError = ""
+        Application.Exit()
+
     End Sub
     Private Sub agregarLOG(cadena As String, tipo As Integer, reporte As Integer, Optional aplicacion As Integer = 1)
         'Se agrega a la base de datos
